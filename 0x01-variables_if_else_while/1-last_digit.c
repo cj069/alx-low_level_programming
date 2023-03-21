@@ -2,11 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
  * main - entry mode
  * Description: printing the last digit
  * Return: always 0
-*/
+**/
 
 int main(void)
 {
@@ -22,11 +22,11 @@ int main(void)
 	}
 	else if (ld == 0)
 	{
-		printf("Last digit of %d is %d and is equal to zero", n, ld);
+		printf("Last digit of %d is %d and is 0", n, ld);
 	}
 	else
 	{
-		printf("Last digit of %d is %d and less than 5 and not zero", n, ld);
+		printf("Last digit of %d is %d and less than 6 and not 0", n, ld);
 	}
 	/* your code goes there */
 	return (0);
